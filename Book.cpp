@@ -1,17 +1,10 @@
 #include "Book.h"
 
-Book::Book(String name, String author, int year): name(name), author(author), year(year) {}
+Book::Book(String name, String author, int year): Media(name,year), author(author) {}
 
-String Book::getName(void) const{
-    return name;
-}
 
 String Book::getAuthor(void) const{
     return author;
-}
-
-int Book::getYear(void) const{
-    return year;
 }
 
 void Book::printInformations(void) const{

@@ -3,19 +3,16 @@
 
 #include <iostream>
 #include <string>
+#include "Media.h"
 
 using String = std::string; //alias to simplified writing
 
-class Book{
-    String name;
+class Book : public Media{
     String author;
-    int year;
 
     public:
     Book(String name, String author, int year);
-    String getName(void) const;
     String getAuthor(void) const;
-    int getYear(void) const;
     void printInformations(void) const;
 };
 

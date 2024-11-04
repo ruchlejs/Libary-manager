@@ -2,15 +2,17 @@
 #define LIBRARY_H_
 
 #include "Book.h"
+#include "Media.h"
 #include <vector>
+#include <memory>
 
 class Library{
-    std::vector<Book> books;
+    std::vector<std::unique_ptr<Media>> medias;
 
     public:
-    void addBook(Book book);
+    void addMedia(std::unique_ptr<Media> media);
     void printLibrary(void);
-    void removeBookByName(String name);
+    void removeMediaByName(String& name);
 };
 
 #endif
