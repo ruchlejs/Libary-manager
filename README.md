@@ -1,17 +1,35 @@
-# Libary-manager
+# 📚 Library Manager
 
-A simple C++ project to explore and practice C++ programming concepts by creating a basic library management system.
-Project Overview
+**Library Manager** is a simple command-line application written in C++ that allows users to manage a collection of media. This project is designed to help practice core C++ programming concepts such as classes, vectors, and user input handling.
 
-This project provides a command-line application for managing a collection of books. Users can:
+## 🚀 Project Goals
 
-- View the list of available books
-- Add new books by entering details (title, author, year)
-- Remove books by specifying the book title
+This project serves as an introduction to:
 
-This project serves as an introduction to C++ classes, vectors, and user input handling.
-Features
+- Working with **C++ classes and objects**
+- Managing dynamic collections using **vectors**
+- Handling **user input** in a console-based application
 
-- View Books: Display all books currently in the library.
-- Add Book: Enter a new book's title, author, and publication year.
-- Remove Book: Remove a book from the library collection by its title.
+## 🧩 Features
+
+The library can manage two types of media: **books** and **films**. You can interact with them through the following features:
+
+- **Viewing media**: Display the list of all books and movies currently in the library.
+- **Add media**: Add a new book or film by entering its title, author/director, and publication year.
+- **Remove media**: Remove a book or a film from the collection by specifying its title.
+
+## 📦 How to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/library-manager.git
+   cd library-manager
+   ```
+2. **Compile the project**:
+   ```
+   make
+   ```
+3. **Run the executable main**:
+   ```
+   ./main
+   ```
