@@ -3,10 +3,10 @@
 #include <string>
 #include <memory>
 
-#include "Media.h"
-#include "Book.h"
-#include "Library.h"
-#include "Film.h"
+#include "../includes/Media.h"
+#include "../includes/Book.h"
+#include "../includes/Library.h"
+#include "../includes/Film.h"
 
 int choose_media_type(void);
 

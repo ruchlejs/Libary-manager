@@ -1,5 +1,5 @@
-#include "Library.h"
-#include "Media.h"
+#include "../includes/Library.h"
+#include "../includes/Media.h"
 
 void Library::addMedia(std::unique_ptr<Media> media){
         medias.push_back(std::move(media));
